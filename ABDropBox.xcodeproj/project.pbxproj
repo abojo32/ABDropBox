@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		888311031CF3F56B00FE588E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888311021CF3F56B00FE588E /* ForgotPasswordViewController.swift */; };
+		888311051CF3F61F00FE588E /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888311041CF3F61F00FE588E /* UserSignInViewController.swift */; };
+		888311071CF4024B00FE588E /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888311061CF4024B00FE588E /* ExistingPhotosViewController.swift */; };
 		88E9D3EC1CEFE50300268311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D3EB1CEFE50300268311 /* AppDelegate.swift */; };
 		88E9D3EE1CEFE50300268311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D3ED1CEFE50300268311 /* ViewController.swift */; };
 		88E9D3F11CEFE50300268311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E9D3EF1CEFE50300268311 /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		88E9D3F61CEFE50300268311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E9D3F41CEFE50300268311 /* LaunchScreen.storyboard */; };
 		88E9D4011CEFE50300268311 /* ABDropBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D4001CEFE50300268311 /* ABDropBoxTests.swift */; };
 		88E9D40C1CEFE50300268311 /* ABDropBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D40B1CEFE50300268311 /* ABDropBoxUITests.swift */; };
+		88E9D41D1CF3B20100268311 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D41C1CF3B20100268311 /* CreateAccountRootViewController.swift */; };
+		88E9D41F1CF3B21400268311 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D41E1CF3B21400268311 /* SignInRootViewController.swift */; };
+		88E9D4231CF3BBC600268311 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D4221CF3BBC600268311 /* CreateAccountViewController.swift */; };
+		88E9D4251CF3BBD900268311 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D4241CF3BBD900268311 /* SignInViewController.swift */; };
+		88E9D4271CF3CB9B00268311 /* FilledInNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D4261CF3CB9B00268311 /* FilledInNewAccountViewController.swift */; };
+		88E9D4291CF3D28A00268311 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9D4281CF3D28A00268311 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		888311021CF3F56B00FE588E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		888311041CF3F61F00FE588E /* UserSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSignInViewController.swift; path = ABDropBox/UserSignInViewController.swift; sourceTree = "<group>"; };
+		888311061CF4024B00FE588E /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
 		88E9D3E81CEFE50300268311 /* ABDropBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABDropBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E9D3EB1CEFE50300268311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88E9D3ED1CEFE50300268311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,12 @@
 		88E9D4071CEFE50300268311 /* ABDropBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABDropBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E9D40B1CEFE50300268311 /* ABDropBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABDropBoxUITests.swift; sourceTree = "<group>"; };
 		88E9D40D1CEFE50300268311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E9D41C1CF3B20100268311 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		88E9D41E1CF3B21400268311 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		88E9D4221CF3BBC600268311 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		88E9D4241CF3BBD900268311 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		88E9D4261CF3CB9B00268311 /* FilledInNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilledInNewAccountViewController.swift; path = ABDropBox/FilledInNewAccountViewController.swift; sourceTree = "<group>"; };
+		88E9D4281CF3D28A00268311 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		88E9D3DF1CEFE50300268311 = {
 			isa = PBXGroup;
 			children = (
+				88E9D41B1CF3B0C900268311 /* View Controllers */,
 				88E9D3EA1CEFE50300268311 /* ABDropBox */,
 				88E9D3FF1CEFE50300268311 /* ABDropBoxTests */,
 				88E9D40A1CEFE50300268311 /* ABDropBoxUITests */,
@@ -123,6 +142,22 @@
 				88E9D40D1CEFE50300268311 /* Info.plist */,
 			);
 			path = ABDropBoxUITests;
+			sourceTree = "<group>";
+		};
+		88E9D41B1CF3B0C900268311 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88E9D4261CF3CB9B00268311 /* FilledInNewAccountViewController.swift */,
+				88E9D4221CF3BBC600268311 /* CreateAccountViewController.swift */,
+				88E9D41C1CF3B20100268311 /* CreateAccountRootViewController.swift */,
+				888311041CF3F61F00FE588E /* UserSignInViewController.swift */,
+				88E9D41E1CF3B21400268311 /* SignInRootViewController.swift */,
+				88E9D4241CF3BBD900268311 /* SignInViewController.swift */,
+				88E9D4281CF3D28A00268311 /* SettingViewController.swift */,
+				888311021CF3F56B00FE588E /* ForgotPasswordViewController.swift */,
+				888311061CF4024B00FE588E /* ExistingPhotosViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888311071CF4024B00FE588E /* ExistingPhotosViewController.swift in Sources */,
+				88E9D4231CF3BBC600268311 /* CreateAccountViewController.swift in Sources */,
+				888311051CF3F61F00FE588E /* UserSignInViewController.swift in Sources */,
+				88E9D4271CF3CB9B00268311 /* FilledInNewAccountViewController.swift in Sources */,
+				88E9D41F1CF3B21400268311 /* SignInRootViewController.swift in Sources */,
+				88E9D4291CF3D28A00268311 /* SettingViewController.swift in Sources */,
+				88E9D4251CF3BBD900268311 /* SignInViewController.swift in Sources */,
+				888311031CF3F56B00FE588E /* ForgotPasswordViewController.swift in Sources */,
+				88E9D41D1CF3B20100268311 /* CreateAccountRootViewController.swift in Sources */,
 				88E9D3EE1CEFE50300268311 /* ViewController.swift in Sources */,
 				88E9D3EC1CEFE50300268311 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +528,7 @@
 				88E9D4121CEFE50300268311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E9D4131CEFE50300268311 /* Build configuration list for PBXNativeTarget "ABDropBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +537,7 @@
 				88E9D4151CEFE50300268311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E9D4161CEFE50300268311 /* Build configuration list for PBXNativeTarget "ABDropBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +546,7 @@
 				88E9D4181CEFE50300268311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
