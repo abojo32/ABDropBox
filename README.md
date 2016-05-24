@@ -37,7 +37,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-[Animated Walkthrough] (https://github.com/abojo32/ABDropBox/blob/master/ABDropBox.gif)
+![Animated Walkthrough] (https://github.com/abojo32/ABDropBox/blob/master/ABDropBox.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
