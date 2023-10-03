@@ -43,6 +43,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app. THI SIS TEST FILE 2
 
 * Any libraries or borrowed content.
